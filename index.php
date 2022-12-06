@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="./css.css"></link>
     </head>
     <body>
+        tst git ok
+
         <?php
             include "database.php";
             include "fun.php";
@@ -101,7 +103,6 @@
         // get the data & update on DB \\ 
         date_default_timezone_set("Israel");
         $dateInput = date("d-m-Y H:i:s");
-
         if (isset($_GET['typeID'])) {
             if ($_GET['typeID'] != '' && $_GET['amount'] != '') {
                 $typeID = $_GET['typeID'];
